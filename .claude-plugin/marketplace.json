@@ -1,8 +1,8 @@
 {
   "name": "revexos-plugins",
-  "description": "RevexOS's public plugin marketplace: Claude/Cowork plugins for B2B service and SaaS operations automation.",
+  "description": "RevExOS's public plugin marketplace: Claude/Cowork plugins for B2B service and SaaS operations automation.",
   "owner": {
-    "name": "RevexOS",
+    "name": "RevExOS",
     "email": "contact@revexos.com"
   },
   "plugins": [
