@@ -1,0 +1,17 @@
+{
+  "name": "quotient",
+  "version": "0.1.0",
+  "description": "Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses — covers quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit.",
+  "author": {
+    "name": "Prabhu / RevexOS"
+  },
+  "keywords": [
+    "quote-to-cash",
+    "cpq",
+    "billing",
+    "invoicing",
+    "revenue-recognition",
+    "b2b-saas",
+    "agency-ops"
+  ]
+}
