@@ -1,6 +1,6 @@
 {
   "name": "revexos-plugins",
-  "description": "RevexOS's public plugin marketplace — Claude/Cowork plugins for B2B service and SaaS operations automation.",
+  "description": "RevexOS's public plugin marketplace \u2014 Claude/Cowork plugins for B2B service and SaaS operations automation.",
   "owner": {
     "name": "RevexOS",
     "email": "prabhu@cloudifybiz.com"
@@ -8,8 +8,8 @@
   "plugins": [
     {
       "name": "quotient",
-      "source": "./plugins/quotient",
-      "description": "Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses — quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit.",
+      "source": "./quotient",
+      "description": "Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses \u2014 quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit.",
       "version": "0.1.0",
       "author": {
         "name": "RevexOS"

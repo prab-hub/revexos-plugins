@@ -6,7 +6,7 @@ Public plugin marketplace for RevexOS (formerly CloudifyBiz), maintained by Prab
 
 | Plugin | Description |
 |---|---|
-| [`quotient`](./plugins/quotient) | Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses — quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit. |
+| [`quotient`](./quotient) | Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses — quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit. |
 
 ## Installing
 
