@@ -14,7 +14,7 @@ metadata:
 # Quote & CPQ Builder
 
 Help the user turn a deal (service engagement or SaaS subscription) into a structured,
-defensible quote — the first step of quote-to-cash. Read `references/pricing-and-packaging.md`
+defensible quote - the first step of quote-to-cash. Read `references/pricing-and-packaging.md`
 before building a quote for the first time in a session; it holds the packaging models,
 discount governance matrix, and line-item templates this skill assumes.
 
@@ -22,19 +22,19 @@ discount governance matrix, and line-item templates this skill assumes.
 
 Before pricing anything, establish:
 
-1. **Deal type** — service engagement (project, retainer, T&M), SaaS subscription
+1. **Deal type**: service engagement (project, retainer, T&M), SaaS subscription
    (seat-based, usage-based, tiered), or hybrid (platform fee + usage, or implementation
    fee + subscription).
-2. **Customer context** — new logo vs. expansion/renewal, deal size, industry, any
+2. **Customer context**: new logo vs. expansion/renewal, deal size, industry, any
    negotiated precedent (existing customer already on a plan or rate card).
-3. **Term & billing cadence** — contract length, billing frequency (monthly, quarterly,
+3. **Term & billing cadence**: contract length, billing frequency (monthly, quarterly,
    annual prepay), auto-renewal expectations.
-4. **Scope or plan definition** — for services: deliverables, hours, staffing level; for
+4. **Scope or plan definition**: for services: deliverables, hours, staffing level; for
    SaaS: which plan tier, seats, add-ons, usage drivers (API calls, GB, transactions).
-5. **Currency and tax jurisdiction** — affects rounding, tax line items, and whether a
+5. **Currency and tax jurisdiction**: affects rounding, tax line items, and whether a
    tax connector (~~accounting) needs to be consulted.
 
-Ask only for what's missing — do not re-ask for information already given. If the user
+Ask only for what's missing - do not re-ask for information already given. If the user
 is vague about deal type, ask one clarifying question rather than guessing, since pricing
 structure differs materially between a retainer and a subscription.
 
@@ -47,7 +47,7 @@ Match the deal type to a packaging model from `references/pricing-and-packaging.
 - **SaaS deals**: good-better-best tiering, per-seat, usage/metered, or a hybrid
   platform-fee-plus-usage model.
 - **Hybrid**: an implementation/onboarding fee (one-time) bundled with a recurring
-  subscription or retainer — flag this explicitly, since it affects revenue recognition
+  subscription or retainer - flag this explicitly, since it affects revenue recognition
   later (see the `qtc-collections-revrec` skill) and needs separate line items.
 
 State which model was chosen and why in one line, so the user can correct it before the
@@ -62,7 +62,7 @@ Never apply a discount silently. Use the discount guardrail table in
   say explicitly that it would need manager/finance approval before sending.
 - For multi-year or annual-prepay deals, apply the standard prepay discount ladder rather
   than an ad hoc number, and say which ladder step was used.
-- Never stack multiple discount types without calling that out as unusual — it's a common
+- Never stack multiple discount types without calling that out as unusual - it's a common
   source of margin leakage.
 
 ## Step 4: Build the quote line items
@@ -79,7 +79,7 @@ Structure the quote as explicit line items, not a single lump sum:
 - Payment terms (e.g., Net 30, due on receipt for setup fees) and quote validity period
   (typically 30 days) stated explicitly at the bottom.
 
-Use the docx, xlsx, or pptx skill (whichever fits the deliverable the user wants — a
+Use the docx, xlsx, or pptx skill (whichever fits the deliverable the user wants - a
 proposal document, a pricing sheet, or a sales deck) to produce the actual output file.
 This skill supplies the pricing logic and structure; it does not replace the document
 formatting skill.
@@ -89,7 +89,7 @@ formatting skill.
 Once a quote is accepted:
 
 - Note that the quote's line items, term, and billing cadence are the direct inputs to
-  the `qtc-contract-handoff` skill — say this explicitly so the user knows the next step.
+  the `qtc-contract-handoff` skill - say this explicitly so the user knows the next step.
 - If a CRM connector (~~crm) is available, note that the deal stage and quote should be
   synced there rather than left only in the document.
 - If an e-signature connector (~~e-signature) is available, note the quote can be routed
@@ -97,7 +97,7 @@ Once a quote is accepted:
 
 ## Common mistakes to avoid
 
-- Treating a SaaS quote and a service quote with the same template — they have different
+- Treating a SaaS quote and a service quote with the same template - they have different
   risk points (usage forecasting vs. scope creep).
 - Quoting a discount without naming the approval path.
 - Omitting the one-time/recurring split, which causes downstream billing and revenue

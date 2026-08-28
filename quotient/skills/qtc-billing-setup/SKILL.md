@@ -20,7 +20,7 @@ math, usage-metering patterns, and the invoice line-item schema this skill assum
 
 Before configuring anything, confirm these came from the order, not assumptions:
 
-- Billing start date and whether it falls mid-cycle (requires proration — see Step 3)
+- Billing start date and whether it falls mid-cycle (requires proration - see Step 3)
 - Billing frequency (monthly, quarterly, annual) and in-advance vs. in-arrears timing
 - One-time vs. recurring line items, kept separate
 - Payment terms (Net 30, due on receipt) and accepted payment method(s)
@@ -28,7 +28,7 @@ Before configuring anything, confirm these came from the order, not assumptions:
 - For usage-based components: the metering driver, included allowance, and overage rate
 
 If any of these weren't explicitly set during contract handoff, say so and ask rather
-than defaulting silently — a wrong billing start date is one of the most common causes
+than defaulting silently - a wrong billing start date is one of the most common causes
 of customer disputes and involuntary churn.
 
 ## Step 2: Choose the billing model configuration
@@ -38,14 +38,14 @@ Match the deal to a configuration pattern from `references/billing-models.md`:
 - **Flat recurring** (retainers, flat SaaS plans): fixed amount per billing period, no
   metering needed.
 - **Seat-based**: recompute the seat count at each billing cycle (or on change) and bill
-  the current count — decide and state whether seat changes bill immediately or at the
+  the current count - decide and state whether seat changes bill immediately or at the
   next cycle.
 - **Usage/metered**: billed in arrears against actual usage; define the aggregation
   window (daily/monthly) and the source of truth for usage data.
 - **Milestone/project billing**: invoice triggered by milestone completion, not a
-  calendar date — confirm the milestone acceptance criteria before invoicing.
+  calendar date - confirm the milestone acceptance criteria before invoicing.
 - **Hybrid**: flat platform fee billed in advance, usage component billed in arrears the
-  following period — keep these as separate invoice lines or separate invoices
+  following period - keep these as separate invoice lines or separate invoices
   entirely, and state which approach was chosen.
 
 ## Step 3: Handle subscription changes and proration
@@ -55,13 +55,13 @@ For any upgrade, downgrade, add-on, or mid-cycle start:
 1. State the proration method being used (typically: prorate by day-count within the
    billing period) and show the calculation, don't just state the result.
 2. Decide and state whether the change is effective immediately (with a prorated credit
-   or charge) or at the next billing cycle — this should follow the customer's contract
+   or charge) or at the next billing cycle - this should follow the customer's contract
    terms if specified, otherwise ask.
 3. For downgrades or cancellations, confirm the effective date and whether any refund or
-   credit applies per the contract's terms — never assume a refund is owed without
+   credit applies per the contract's terms - never assume a refund is owed without
    checking.
 4. Downstream, an upgrade/downgrade may need to be reflected in the entitlement/feature
-   flags (from `qtc-contract-handoff`) — flag that provisioning needs to be updated
+   flags (from `qtc-contract-handoff`) - flag that provisioning needs to be updated
    alongside the billing change, not after.
 
 ## Step 4: Generate the invoice

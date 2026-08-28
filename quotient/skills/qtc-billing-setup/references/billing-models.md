@@ -10,7 +10,7 @@ The most common and defensible proration method for mid-cycle changes:
 prorated_amount = (full_period_amount / days_in_period) × days_remaining_or_used
 ```
 
-**Worked example — mid-cycle start:**
+**Worked example - mid-cycle start:**
 Monthly plan = $3,000/month. Customer starts on day 10 of a 30-day billing period (21
 days remaining, including the start day).
 
@@ -19,7 +19,7 @@ daily_rate = $3,000 / 30 = $100/day
 prorated_first_invoice = $100 × 21 = $2,100
 ```
 
-**Worked example — mid-cycle upgrade:**
+**Worked example - mid-cycle upgrade:**
 Customer upgrades from a $1,000/month plan to a $2,500/month plan on day 15 of a 30-day
 period (15 days remaining).
 
@@ -29,7 +29,7 @@ charge_for_new_plan_remainder = ($2,500 / 30) × 15 = $1,250
 net_prorated_charge = $1,250 - $500 = $750
 ```
 
-State both the credit and the new charge, not just the net — customers reconcile against
+State both the credit and the new charge, not just the net - customers reconcile against
 both.
 
 ## 2. Seat-based billing patterns
@@ -45,7 +45,7 @@ State which approach applies before generating any seat-change invoice.
 ## 3. Usage/metered billing patterns
 
 - **Source of truth**: usage must come from a single authoritative system (product
-  telemetry, API gateway logs) — never estimate usage for an invoice.
+  telemetry, API gateway logs) - never estimate usage for an invoice.
 - **Aggregation window**: typically daily rollups aggregated to a monthly invoice;
   confirm which window applies before calculating overage.
 - **Included allowance**: state the plan's included usage explicitly on the invoice
@@ -101,8 +101,8 @@ export or to hand to a ~~workflow automation or ~~accounting integration):
 
 ## 6. When to escalate instead of auto-generating an invoice
 
-- Customer disputes a prior invoice — resolve before issuing a new one that compounds
+- Customer disputes a prior invoice - resolve before issuing a new one that compounds
   the disagreement.
 - Contract has non-standard terms not captured in the standard schema above.
-- Usage data is missing, delayed, or looks anomalous (a sudden 10x spike) — verify before
+- Usage data is missing, delayed, or looks anomalous (a sudden 10x spike) - verify before
   billing it.

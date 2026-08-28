@@ -15,7 +15,7 @@ metadata:
 
 Diagnose a company's current-state quote-to-cash process, score its maturity stage by
 stage, and produce a prioritized automation roadmap. This skill is often the entry point
-before using the other four skills in this plugin — use it when the user doesn't yet
+before using the other four skills in this plugin - use it when the user doesn't yet
 know where their biggest QTC problem is. Read `references/audit-questionnaire.md` for
 the full interview questions, maturity rubric, and industry-specific leakage patterns.
 
@@ -24,7 +24,7 @@ the full interview questions, maturity rubric, and industry-specific leakage pat
 Work through the five QTC stages (lead-to-quote, quote-to-contract,
 contract-to-provisioning, billing-to-invoice, collections-to-revrec) using the
 questionnaire in `references/audit-questionnaire.md`. Prefer asking a focused set of
-questions over an exhaustive interrogation — pull from any documents, spreadsheets, or
+questions over an exhaustive interrogation - pull from any documents, spreadsheets, or
 system exports the user shares rather than re-asking for information already given. If
 this is an interactive session, ask questions in small batches per stage rather than all
 at once.
@@ -40,7 +40,7 @@ For each of the five stages, assign a maturity level using this rubric:
 | 3 | Partially automated | Some steps automated (e.g., recurring invoices auto-generate) but with manual gaps or reconciliation |
 | 4 | Fully automated & integrated | End-to-end automation with systems talking to each other and minimal manual intervention |
 
-State the level and the specific evidence for it (e.g., "Level 1 on quoting — quotes are
+State the level and the specific evidence for it (e.g., "Level 1 on quoting - quotes are
 built ad hoc in Google Docs with no discount approval trail") rather than a bare number.
 
 ## Step 3: Identify leakage and bottlenecks
@@ -57,11 +57,11 @@ anyone tracking it.
 
 Rank findings by impact × effort, not just severity:
 
-- **High impact, low effort** — do first (e.g., adding a discount approval line to
+- **High impact, low effort**: do first (e.g., adding a discount approval line to
   quotes, setting up a basic dunning cadence).
-- **High impact, high effort** — plan next (e.g., migrating from spreadsheet billing to
+- **High impact, high effort**: plan next (e.g., migrating from spreadsheet billing to
   a proper subscription billing system).
-- **Low impact** — deprioritize regardless of how easy it is; don't let quick wins
+- **Low impact**: deprioritize regardless of how easy it is; don't let quick wins
   crowd out addressing the actual biggest leak.
 
 For each top finding, name which skill in this plugin addresses it directly
@@ -80,13 +80,13 @@ Structure the deliverable as:
 5. Recommended next skill/action to start with.
 
 Use the docx or pptx skill to format this as a polished deliverable if the user wants a
-shareable document or a discovery-call presentation — this skill defines the content and
+shareable document or a discovery-call presentation - this skill defines the content and
 structure, not the file formatting.
 
 ## Note on using this as a sales/discovery tool
 
 If the user is running this audit on behalf of a prospect or client (rather than their
-own company), keep the tone diagnostic and specific rather than a generic sales pitch —
+own company), keep the tone diagnostic and specific rather than a generic sales pitch -
 credibility comes from precise, evidenced findings, not from over-selling the other
 skills in this plugin.
 

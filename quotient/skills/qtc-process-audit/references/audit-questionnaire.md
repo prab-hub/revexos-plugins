@@ -5,7 +5,7 @@ Detailed interview questions and industry leakage patterns backing the
 
 ## Interview questionnaire by stage
 
-### Stage 1 — Lead-to-quote
+### Stage 1: Lead-to-quote
 
 - How are quotes/proposals currently built (tool, template, who owns it)?
 - Is there a defined discount approval process, and is it actually followed?
@@ -13,35 +13,35 @@ Detailed interview questions and industry leakage patterns backing the
   hands?
 - Are pricing/packaging decisions consistent across reps, or ad hoc per deal?
 
-### Stage 2 — Quote-to-contract
+### Stage 2: Quote-to-contract
 
 - What happens between "quote accepted" and "contract signed"? Is there a defined order
   form / SOW template?
 - Is there a reconciliation check between what was quoted and what's in the contract?
-- How is the contract routed for signature — manually emailed, or via an e-signature
+- How is the contract routed for signature - manually emailed, or via an e-signature
   tool?
 - Are renewal/auto-renewal terms tracked anywhere visible before they trigger?
 
-### Stage 3 — Contract-to-provisioning
+### Stage 3: Contract-to-provisioning
 
 - Once signed, how does the delivery/ops/product team learn the deal closed?
 - Is there a checklist for what needs to be provisioned, and is it owned/dated?
 - How often does billing start before the customer is actually live (or vice versa)?
 
-### Stage 4 — Billing-to-invoice
+### Stage 4: Billing-to-invoice
 
 - Is billing generated manually each cycle, or automated?
 - How are subscription changes (upgrades/downgrades, seat changes) reflected in
-  billing — immediately, at next cycle, manually calculated?
+  billing - immediately, at next cycle, manually calculated?
 - Is there a single system of record for invoices, or are they scattered across email/
   spreadsheets/multiple tools?
 - How is usage-based billing (if any) metered and verified before invoicing?
 
-### Stage 5 — Collections-to-revrec
+### Stage 5: Collections-to-revrec
 
 - Is there a defined dunning/follow-up cadence for overdue invoices, or is it reactive?
 - Who owns AR follow-up, and how much is currently outstanding by aging bucket?
-- How is revenue currently recognized — cash basis, or accrual with a defined
+- How is revenue currently recognized - cash basis, or accrual with a defined
   methodology?
 - Are deferred revenue and unbilled revenue tracked, or only cash collected?
 
@@ -90,6 +90,6 @@ false-precision score:
 | **High impact** | Do first | Plan and resource next |
 | **Low impact** | Fine to do opportunistically | Deprioritize |
 
-Impact should be estimated in concrete terms where possible — dollars of leakage per
-year, hours of manual work per month, or days of cash-collection delay — rather than a
+Impact should be estimated in concrete terms where possible - dollars of leakage per
+year, hours of manual work per month, or days of cash-collection delay - rather than a
 vague "high/medium/low" with no basis.

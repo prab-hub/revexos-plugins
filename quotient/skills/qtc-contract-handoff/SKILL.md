@@ -24,12 +24,12 @@ Before generating any contract paperwork, build an order record from the accepte
 and check it line-by-line against the original quote:
 
 - Every quote line item (one-time and recurring) must appear on the order with the same
-  price, quantity, and billing frequency — flag any discrepancy instead of silently
+  price, quantity, and billing frequency - flag any discrepancy instead of silently
   carrying it forward.
 - Capture: legal entity name and billing address, primary and billing contacts, contract
   start date, term length, auto-renewal clause (and notice period), payment terms, PO
   number if the customer requires one.
-- If the deal was hybrid (one-time + recurring), keep those as distinct order lines —
+- If the deal was hybrid (one-time + recurring), keep those as distinct order lines -
   this distinction feeds both billing setup and revenue recognition later.
 
 ## Step 2: Package the contract
@@ -37,12 +37,12 @@ and check it line-by-line against the original quote:
 Assemble the contract/order form appropriate to the deal:
 
 - Service deals typically need a Master Services Agreement (MSA) plus a Statement of
-  Work (SOW) or Order Form referencing it — check whether an MSA already exists for this
+  Work (SOW) or Order Form referencing it - check whether an MSA already exists for this
   customer (renewal/expansion) before drafting a new one.
 - SaaS deals typically need an Order Form referencing a standard Terms of Service /
   Subscription Agreement.
 - Include the renewal terms explicitly in plain language (auto-renews unless cancelled
-  with N days' notice; price uplift clause if any) — this is a frequent source of
+  with N days' notice; price uplift clause if any) - this is a frequent source of
   disputes if left implicit.
 
 If an e-signature connector (~~e-signature) is available, note that the contract should
@@ -53,7 +53,7 @@ review step before it goes out.
 ## Step 3: Build the entitlement & provisioning checklist
 
 Translate the order's line items into what must actually be provisioned. This differs
-sharply by deal type — use `references/entitlement-provisioning-checklist.md` for the
+sharply by deal type - use `references/entitlement-provisioning-checklist.md` for the
 full checklists. At minimum, produce:
 
 - **SaaS**: account/tenant creation, seat allocation, feature flags per plan tier, SSO or
@@ -65,7 +65,7 @@ full checklists. At minimum, produce:
   before or alongside the subscription's billing start date.
 
 State an owner and a target completion date (relative to signature, e.g., "T+2 business
-days") for each checklist item — an unowned checklist item is the single most common
+days") for each checklist item - an unowned checklist item is the single most common
 cause of a customer being billed before they're actually live.
 
 ## Step 4: Sync systems of record
@@ -77,7 +77,7 @@ cause of a customer being billed before they're actually live.
   provisioning checklist should become tracked tasks assigned to the delivery/ops team,
   not just a static list.
 - Confirm the billing start date and cadence that will be handed to the
-  `qtc-billing-setup` skill — this must match what was promised in the order, not
+  `qtc-billing-setup` skill - this must match what was promised in the order, not
   default to "today."
 
 ## Step 5: Hand off to billing

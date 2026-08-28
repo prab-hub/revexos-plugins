@@ -6,7 +6,7 @@ Detailed by-deal-type checklists backing the `qtc-contract-handoff` skill.
 
 1. Create client entity in practice management / accounting system (~~accounting)
 2. Collect engagement-required documents (prior filings, chart of accounts, bank feed
-   access) — owner: onboarding specialist, target T+3 business days
+   access) - owner: onboarding specialist, target T+3 business days
 3. Set up bank/card feed connections and access permissions
 4. Assign staff (preparer + reviewer) per the engagement letter's scope
 5. Schedule recurring close calendar (monthly close date, quarterly review, annual filing
@@ -18,13 +18,13 @@ Detailed by-deal-type checklists backing the `qtc-contract-handoff` skill.
 
 1. Create client workspace in project tracker (~~project tracker) and shared asset
    library
-2. Set up ad account access (whoever owns billing — agency or client) and confirm media
+2. Set up ad account access (whoever owns billing - agency or client) and confirm media
    spend markup/handling terms from the quote
 3. Assign account lead + specialists per scope (SEO, paid, content, etc.)
 4. Schedule kickoff call and first 30/60/90-day plan
 5. Confirm reporting cadence and the dashboard/tool the client will see (analytics
    connector)
-6. Flag if the deal includes a value-based/outcome fee component — set up the tracking
+6. Flag if the deal includes a value-based/outcome fee component - set up the tracking
    needed to measure that outcome before month 1 closes
 
 ## Dev/software agency project or T&M engagement
@@ -54,7 +54,7 @@ Detailed by-deal-type checklists backing the `qtc-contract-handoff` skill.
 1. Sequence: implementation/onboarding checklist (above) should substantially complete
    before or align with the subscription billing start date
 2. Keep the one-time implementation fee and recurring subscription fee as separate order
-   lines all the way through — do not let them merge into a single "go-live" billing
+   lines all the way through - do not let them merge into a single "go-live" billing
    event
 3. Confirm with the customer, in writing, what "live" means (the trigger for subscription
    billing to start) to avoid disputes

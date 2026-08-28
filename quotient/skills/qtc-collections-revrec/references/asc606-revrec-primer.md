@@ -2,23 +2,23 @@
 
 Reference detail backing the `qtc-collections-revrec` skill. This is a working primer for
 structuring revenue recognition schedules, not a substitute for the user's accountant or
-auditor on judgment calls — say so whenever a genuinely ambiguous case comes up.
+auditor on judgment calls - say so whenever a genuinely ambiguous case comes up.
 
 ## The five-step model
 
-1. **Identify the contract** — a legally enforceable agreement with commercial substance
+1. **Identify the contract**: a legally enforceable agreement with commercial substance
    (the signed order/SOW from `qtc-contract-handoff`).
-2. **Identify performance obligations** — the distinct promises in the contract (e.g.,
+2. **Identify performance obligations**: the distinct promises in the contract (e.g.,
    "SaaS access for 12 months" and "implementation services" may be one or two
    obligations depending on whether the implementation has standalone value).
-3. **Determine the transaction price** — the total consideration expected, including any
+3. **Determine the transaction price**: the total consideration expected, including any
    variable consideration (usage-based fees, expected refunds/credits).
-4. **Allocate the transaction price** — split the price across performance obligations
+4. **Allocate the transaction price**: split the price across performance obligations
    based on their standalone selling prices.
-5. **Recognize revenue** — as (or when) each performance obligation is satisfied: at a
+5. **Recognize revenue**: as (or when) each performance obligation is satisfied: at a
    point in time, or over time.
 
-## Worked example 1 — Pure SaaS annual contract
+## Worked example 1: Pure SaaS annual contract
 
 Contract: $36,000/year SaaS subscription, paid annually in advance, no separate
 implementation fee.
@@ -37,7 +37,7 @@ implementation fee.
 | ... | ... | ... | ... |
 | 12 | $0 | $3,000 | $0 |
 
-## Worked example 2 — Hybrid implementation + subscription
+## Worked example 2: Hybrid implementation + subscription
 
 Contract: $10,000 one-time implementation fee + $2,000/month subscription over 12
 months, implementation has no standalone value to the customer separate from the
@@ -53,9 +53,9 @@ subscription (a common determination for SaaS onboarding work).
 - If the implementation clearly has standalone value (e.g., the customer could have hired
   a third party to do it, and it's priced at fair market rate), it may instead be treated
   as a separate performance obligation recognized at completion (point-in-time). This is
-  a judgment call — flag it for the user's accountant rather than assuming.
+  a judgment call - flag it for the user's accountant rather than assuming.
 
-## Worked example 3 — Services engagement, percentage-of-completion
+## Worked example 3: Services engagement, percentage-of-completion
 
 Contract: Fixed-fee $120,000 dev project, no defined milestones, estimated at 1,200
 hours of effort.
@@ -71,11 +71,11 @@ recognized_to_date = (hours_incurred_to_date / total_estimated_hours) × total_c
 
 - If 300 hours have been incurred against the 1,200-hour estimate:
   `(300 / 1200) × $120,000 = $30,000` recognized to date.
-- Re-forecast the total estimated hours periodically — if the estimate changes (e.g., now
+- Re-forecast the total estimated hours periodically - if the estimate changes (e.g., now
   expected to take 1,500 hours), recompute recognized-to-date on the revised total
   prospectively; do not restate prior periods for a routine re-estimate.
 
-## Worked example 4 — Milestone-based services
+## Worked example 4: Milestone-based services
 
 Contract: $90,000 project with three defined, customer-accepted milestones of $30,000
 each.
@@ -83,14 +83,14 @@ each.
 - If each milestone represents a distinct performance obligation with standalone value,
   recognize $30,000 at each milestone's acceptance (point-in-time per milestone) rather
   than ratably across the whole project.
-- Do not recognize on milestone *invoicing* — recognize on milestone *acceptance* per the
+- Do not recognize on milestone *invoicing* - recognize on milestone *acceptance* per the
   contract's acceptance criteria; invoicing and recognition timing can differ.
 
 ## Deferred revenue vs. unbilled (accrued) revenue
 
 - **Deferred revenue** (a liability): cash collected (or invoiced) ahead of the revenue
-  being earned — common with annual prepay.
-- **Unbilled/accrued revenue** (an asset): revenue earned ahead of when it's invoiced —
+  being earned - common with annual prepay.
+- **Unbilled/accrued revenue** (an asset): revenue earned ahead of when it's invoiced -
   common with percentage-of-completion services billed monthly in arrears while work
   happens continuously.
 
@@ -102,9 +102,9 @@ component and unbilled revenue for a concurrent T&M component.
 When a contract changes mid-term (upgrade, downgrade, scope change, extension):
 
 1. Determine whether the modification adds **distinct** goods/services at their
-   standalone selling price — if so, treat it as a separate contract (no change to
+   standalone selling price - if so, treat it as a separate contract (no change to
    existing recognition).
-2. Otherwise, treat it as a modification of the existing contract — reallocate the
+2. Otherwise, treat it as a modification of the existing contract - reallocate the
    remaining transaction price across the remaining performance obligations
    prospectively from the modification date.
 3. Never retroactively restate revenue already recognized for a routine modification;
@@ -116,6 +116,6 @@ When a contract changes mid-term (upgrade, downgrade, scope change, extension):
   ratable treatment).
 - Contract modifications that might qualify as a new contract vs. a modification.
 - Variable consideration that's genuinely hard to estimate (e.g., usage-based revenue
-  with high volatility) — ASC 606 requires constraining variable consideration estimates.
+  with high volatility) - ASC 606 requires constraining variable consideration estimates.
 - Multi-year contracts with embedded price changes or renewal options that may need to be
   evaluated as material rights.

@@ -1,12 +1,12 @@
 # RevexOS Plugins
 
-Public plugin marketplace for RevexOS (formerly CloudifyBiz).
+Public plugin marketplace for RevexOS.
 
 ## Available plugins
 
 | Plugin | Description |
 |---|---|
-| [`quotient`](./quotient) | Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses — quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit. |
+| [`quotient`](./quotient) | Quote-to-cash automation toolkit for B2B digital service companies (accounting, marketing, dev/agency) and B2B SaaS businesses, covering quoting/CPQ, contract-to-order handoff, billing & invoicing, collections & revenue recognition, and a QTC process audit. |
 
 ## Installing
 

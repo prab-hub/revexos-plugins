@@ -11,7 +11,7 @@ constructing a quote, not just discussing quoting in the abstract.
 |---|---|---|---|
 | Fixed project fee | Single price for a defined scope and deliverable set | Well-scoped, bounded projects (a website build, a tax filing engagement, a migration) | Scope creep erodes margin; needs a change-order process baked into the contract |
 | Time & materials (T&M) | Hourly/day rate card by role, billed against actuals | Open-ended or discovery-heavy work | Customer risk-aversion to open-ended cost; needs a not-to-exceed cap in many deals |
-| Monthly retainer | Flat fee for a defined capacity band (e.g., "up to 40 hours" or "2 campaigns/month") | Ongoing services — bookkeeping, SEO, dev support | Ambiguous "up to" bands cause disputes; define overage handling explicitly |
+| Monthly retainer | Flat fee for a defined capacity band (e.g., "up to 40 hours" or "2 campaigns/month") | Ongoing services - bookkeeping, SEO, dev support | Ambiguous "up to" bands cause disputes; define overage handling explicitly |
 | Value-based / outcome fee | Price tied to a business outcome (% of ad spend managed, % of revenue recovered) | Marketing media management, revenue-recovery/collections services | Requires trustworthy outcome measurement; align incentives carefully |
 
 ### B2B SaaS
@@ -26,7 +26,7 @@ constructing a quote, not just discussing quoting in the abstract.
 ### Hybrid service + SaaS
 
 Implementation/onboarding fee (one-time) plus ongoing subscription or retainer. Always
-split into a separate one-time line item — bundling it into the recurring fee causes
+split into a separate one-time line item - bundling it into the recurring fee causes
 revenue recognition problems (the one-time fee is typically recognized differently than
 the ratable subscription revenue).
 
@@ -50,7 +50,7 @@ if given):
 - 3-year prepay: 20–25% off
 
 Never combine the prepay ladder with a separately negotiated discretionary discount
-without flagging the combined effective discount — stacking is the single most common
+without flagging the combined effective discount - stacking is the single most common
 cause of unintended margin erosion.
 
 ## 3. Line-item templates
@@ -59,9 +59,9 @@ cause of unintended margin erosion.
 
 ```
 LINE ITEMS
-1. [One-time] Implementation / onboarding fee — $X — due on signature
-2. [Recurring] Monthly retainer (up to N hours / M deliverables) — $Y/month — billed monthly in advance
-3. [Recurring] Additional hours beyond retainer band — $Z/hour — billed monthly in arrears
+1. [One-time] Implementation / onboarding fee - $X - due on signature
+2. [Recurring] Monthly retainer (up to N hours / M deliverables) - $Y/month - billed monthly in advance
+3. [Recurring] Additional hours beyond retainer band - $Z/hour - billed monthly in arrears
 DISCOUNT: -$D (reason: ___, approved by: ___)
 TAX: estimated, confirm via accounting system
 TOTAL DUE AT SIGNING: [one-time + first period]
@@ -73,9 +73,9 @@ QUOTE VALID UNTIL: [date, default 30 days]
 
 ```
 LINE ITEMS
-1. [Recurring] [Plan name] subscription — $X/seat/month × N seats — billed [monthly/annual]
-2. [Recurring] Usage overage beyond included [driver] — $Y per unit — billed monthly in arrears
-3. [One-time] Onboarding/implementation fee (if applicable) — $Z — due on signature
+1. [Recurring] [Plan name] subscription - $X/seat/month × N seats - billed [monthly/annual]
+2. [Recurring] Usage overage beyond included [driver] - $Y per unit - billed monthly in arrears
+3. [One-time] Onboarding/implementation fee (if applicable) - $Z - due on signature
 DISCOUNT: -$D (reason: ___, approved by: ___)
 TAX: estimated, confirm via accounting system
 TOTAL DUE AT SIGNING: [one-time + first period, or $0 if monthly-only]
@@ -90,4 +90,4 @@ QUOTE VALID UNTIL: [date, default 30 days]
   milestone).
 - Multi-entity or multi-currency billing.
 - Customer wants unusual contract exit terms (early termination without penalty).
-- Deal involves a reseller, partner margin, or revenue share — pricing math changes.
+- Deal involves a reseller, partner margin, or revenue share - pricing math changes.

@@ -16,9 +16,9 @@ metadata:
 Cover the back half of quote-to-cash: getting paid on time, reconciling payments, and
 recognizing revenue correctly once cash and contracts diverge (which they almost always
 do). Read `references/asc606-revrec-primer.md` before building a revenue recognition
-schedule — do not improvise the accounting treatment.
+schedule - do not improvise the accounting treatment.
 
-## Part A — Collections & AR follow-up
+## Part A: Collections & AR follow-up
 
 ### Step 1: Design the dunning cadence
 
@@ -40,7 +40,7 @@ terms and any negotiated grace period from the order.
 ### Step 2: AR aging and prioritization
 
 Bucket outstanding invoices by age (0–30, 31–60, 61–90, 90+ days) and prioritize
-follow-up by a combination of age and dollar amount — a large 31-day invoice usually
+follow-up by a combination of age and dollar amount - a large 31-day invoice usually
 warrants attention before a small 60-day one. If a CRM connector (~~crm) is available,
 note that aging invoices should generate tasks for the account owner, not just sit in a
 finance report no one else sees.
@@ -57,11 +57,11 @@ finance report no one else sees.
 ### Step 4: Service impact of non-payment
 
 State, based on the contract, what happens if an invoice goes unpaid past the escalation
-threshold — service suspension, feature restriction, or continued service with
+threshold - service suspension, feature restriction, or continued service with
 collections handled separately. Never assume suspension is automatic; confirm it's in the
 contract terms surfaced during `qtc-contract-handoff`.
 
-## Part B — Revenue recognition
+## Part B: Revenue recognition
 
 ### Step 1: Determine the recognition pattern
 
@@ -80,7 +80,7 @@ Using the ASC 606 / IFRS 15 five-step framework detailed in
 
 For hybrid deals (one-time implementation fee + recurring subscription, or a bundled
 service + software deal), do not recognize the one-time fee entirely on receipt if it
-represents setup work with no standalone value to the customer — in many cases it should
+represents setup work with no standalone value to the customer - in many cases it should
 be recognized over the expected customer relationship period alongside the subscription.
 Flag this as a judgment call requiring the user's accountant/auditor's sign-off; this
 skill provides the standard framework, not a substitute for professional accounting
