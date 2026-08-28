@@ -1,6 +1,6 @@
 # RevexOS Plugins
 
-Public plugin marketplace for RevexOS (formerly CloudifyBiz), maintained by Prabhu.
+Public plugin marketplace for RevexOS (formerly CloudifyBiz).
 
 ## Available plugins
 
@@ -12,7 +12,7 @@ Public plugin marketplace for RevexOS (formerly CloudifyBiz), maintained by Prab
 
 **Claude Code:**
 ```shell
-/plugin marketplace add <your-github-username>/revexos-plugins
+/plugin marketplace add prab-hub/revexos-plugins
 /plugin install quotient@revexos-plugins
 ```
 
