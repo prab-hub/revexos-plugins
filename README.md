@@ -1,6 +1,6 @@
-# RevexOS Plugins
+# RevExOS Plugins
 
-Public plugin marketplace for RevexOS.
+Public plugin marketplace for RevExOS.
 
 ## Available plugins
 
@@ -22,5 +22,5 @@ GitHub URL, then install `quotient` from the list.
 
 ## About
 
-RevexOS packages hands-on automation and SAP BRIM/quote-to-cash expertise into
+RevExOS packages hands-on automation and SAP BRIM/quote-to-cash expertise into
 ready-to-use Claude skills and plugins for B2B service and SaaS companies.
