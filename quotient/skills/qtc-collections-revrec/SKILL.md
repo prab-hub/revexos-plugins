@@ -61,6 +61,32 @@ threshold - service suspension, feature restriction, or continued service with
 collections handled separately. Never assume suspension is automatic; confirm it's in the
 contract terms surfaced during `qtc-contract-handoff`.
 
+### Step 5: Produce a controller-ready AR aging digest
+
+When the user wants a shareable version of the aging analysis rather than just the
+in-conversation breakdown (for a monthly close review, a leadership update, or a
+controller who needs to skim it), package Step 2's output into a one-page digest instead
+of leaving it as a raw table the user has to reformat by hand each time:
+
+- A header line with total AR outstanding, total overdue, and days sales outstanding
+  (DSO) if enough data is available to calculate it.
+- The aging bucket table (0-30/31-60/61-90/90+): invoice count, total dollar amount, and
+  percent of total AR per bucket.
+- A prioritized list of the top accounts needing attention this period (from Step 2's
+  age x dollar-amount ranking), each with its dunning stage (from Step 1) and the next
+  action, not just the raw balance.
+- A period-over-period comparison (total AR and DSO vs. the prior period) whenever prior
+  data is available, so the reader sees the trend, not just a snapshot.
+
+Use the docx, xlsx, or pptx skill, whichever fits what the user actually wants (a
+one-page summary document, a spreadsheet with a summary tab over the detail rows, or a
+slide for a monthly review deck), to produce the actual file. This skill supplies the
+content, the prioritization, and the structure; it does not replace the document
+formatting skill. If a workflow automation connector (~~workflow automation) is
+available, note that this digest is a good candidate to generate on a recurring
+schedule (e.g., the first business day of each month) rather than built ad hoc every
+time.
+
 ## Part B: Revenue recognition
 
 ### Step 1: Determine the recognition pattern
@@ -112,3 +138,5 @@ recognized revenue are tracked separately. See the worked example in
 - Recognizing annual-prepay revenue as a lump sum instead of ratably over the term.
 - Making a revenue recognition call without noting it should be confirmed with the
   user's accountant, especially for judgment-heavy cases (modifications, bundling).
+- Handing back a raw aging breakdown when the user actually needs a shareable digest,
+  leaving them to reformat it into something presentable by hand.
